@@ -6,8 +6,22 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #222831;
+    --secondary-color: #eeee;
+    --tertiary-color: #00adb5;
+    --background-color: #fff;
+}
+
+.dark-theme {
+    --primary-color: #181818;
+    --secondary-color: #eeee;
+    --tertiary-color: #00adb5;
+    --background-color: #282828;
+}
+
 .cookie-container {
-    background-color: #222831;
+    background-color: var(--primary-color);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -47,7 +61,7 @@
 .cookie-button {
     border-style: none;
     padding: 0.5rem 1rem;
-    color: #222831;
+    color: var(--primary-color);
     font-family: "Poppins", sans-serif;
     font-size: 0.6rem;
     font-weight: bold;
@@ -59,6 +73,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
 }
 
 a {
@@ -71,7 +86,7 @@ ul {
 
 header {
     display: flex;
-    background-color: #222831;
+    background-color: var(--primary-color);
     justify-content: space-around;
     padding: 1rem 0;
     align-items: center;
@@ -89,7 +104,7 @@ header {
 }
 
 .header_logo {
-    color: #eeee;
+    color: var(--secondary-color);
     font-weight: 600;
 }
 
@@ -110,8 +125,12 @@ header {
     border-radius: 5px;
 }
 
+.dark_mode {
+    color: #eeee;
+}
+
 .nav_link:hover {
-    background-color: #00adb5;
+    background-color: var(--tertiary-color);
 }
 
 .header_toggle,
@@ -136,7 +155,7 @@ header {
 
     .header_toggle {
         display: inline;
-        color: #eeee;
+        color: var(--secondary-color);
         font-size: 24px;
     }
 
@@ -149,14 +168,14 @@ header {
     }
 
     .header_close:hover {
-        background-color: #00adb5;
+        background-color: var(--tertiary-color);
     }
 
     .nav {
         position: fixed;
         top: 0;
         right: -100%;
-        background-color: #222831;
+        background-color: var(--primary-color);
         color: #eeee;
         width: 60%;
         height: 100vh;

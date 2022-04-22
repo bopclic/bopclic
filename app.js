@@ -41,3 +41,15 @@ function closeToggle() {
 
 document.querySelector('.header_close')
     .addEventListener('click', closeToggle);
+
+
+
+const icon = document.getElementById("dark-mode");
+icon.onclick = function () {
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")) {
+        icon.setAttribute('name', 'sunny-outline');
+    } else {
+        icon.setAttribute('name', 'moon-outline');
+    }
+}
