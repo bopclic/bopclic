@@ -21,3 +21,23 @@ const button = document.querySelector('button');
 button.addEventListener('click', () => {
     gsap.to('.cookie-container', { opacity: 0, y: 100, duration: 0.75, ease: "power1.out" })
 })
+
+
+
+function classToggle() {
+    const navs = document.querySelectorAll('#nav-menu')
+
+    navs.forEach(nav => nav.classList.toggle('show'));
+}
+
+document.querySelector('.header_toggle')
+    .addEventListener('click', classToggle);
+
+function closeToggle() {
+    const closes = document.querySelectorAll('#nav-menu')
+
+    closes.forEach(close => close.classList.remove('show'));
+}
+
+document.querySelector('.header_close')
+    .addEventListener('click', closeToggle);
