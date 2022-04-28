@@ -142,6 +142,8 @@ header {
 }
 
 @media screen and (min-width: 768px) {
+
+
     .hero {
 
         display: grid;
@@ -154,8 +156,16 @@ header {
         text-align: center;
     }
 
+    .cookie-container {
+        text-align: left;
+    }
+
     .hero-1 {
         width: 100%;
+    }
+
+    .hero-2 {
+        margin-top: 5%;
     }
 
     header {
@@ -225,7 +235,7 @@ header {
 
 .hero {
     height: 100vh;
-    padding: 15% 5%;
+    padding: 12% 5%;
 }
 
 
