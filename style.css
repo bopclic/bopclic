@@ -156,16 +156,27 @@ header {
         text-align: center;
     }
 
+    header {
+        position: relative;
+    }
+
     .cookie-container {
         text-align: left;
     }
 
-    .hero-1 {
-        width: 100%;
+    .hero {
+        display: flex;
+        flex-flow: column-reverse;
+        margin-top: 50%;
     }
 
-    .hero-2 {
-        margin-top: 5%;
+    .hero-1 {
+        width: 100%;
+        margin-top: 1%;
+    }
+
+    .hero-2 img {
+        height: 100%;
     }
 
     header {
