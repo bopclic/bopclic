@@ -167,7 +167,7 @@ header {
     .hero {
         display: flex;
         flex-flow: column-reverse;
-        margin-top: 50%;
+        margin-top: 20%;
     }
 
     .hero-1 {
