@@ -245,7 +245,6 @@ header {
 }
 
 .hero {
-
     padding: 12% 5%;
 }
 
@@ -276,4 +275,14 @@ header {
     cursor: pointer;
     height: 44px;
     margin-top: 16px;
+}
+
+.icons {
+    text-align: right;
+    padding: 2px 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
 }
