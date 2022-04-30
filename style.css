@@ -168,6 +168,8 @@ header {
         display: flex;
         flex-flow: column-reverse;
         margin-top: 1%;
+        height: 100% !important;
+        margin-bottom: 10%;
     }
 
     .hero-1 {
@@ -246,6 +248,7 @@ header {
 
 .hero {
     padding: 12% 5%;
+    height: 100vh;
 }
 
 
@@ -285,4 +288,12 @@ header {
 a {
     text-decoration: none;
     color: var(--text-color);
+}
+
+.hot-websites {
+    background-color: var(--primary-color);
+    height: 100vh;
+    clip-path: polygon(0 50px, 50% 0, 100% 50px, 100% 100%, 0 100%);
+    margin-top: -40px;
+
 }
