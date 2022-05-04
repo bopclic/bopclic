@@ -307,13 +307,17 @@ a {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #fe42ad;
     color: white;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
 }
 
-#myBtn:hover {
+/* #myBtn:hover {
     background-color: #555;
+} */
+
+.icons a {
+    padding: 0.5rem;
 }
