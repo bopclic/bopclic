@@ -290,13 +290,27 @@ a {
     color: var(--text-color);
 }
 
-.hot-websites {
+.hot-apps {
     background-color: var(--primary-color);
-    height: 100vh;
+    height: 100%;
     clip-path: polygon(0 50px, 50% 0, 100% 50px, 100% 100%, 0 100%);
     margin-top: -40px;
+    padding: 10% 5%;
 
 }
+
+.hot-apps h1 {
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: xx-large;
+    color: var(--secondary-color);
+}
+
+.hot-apps p {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
 
 #myBtn {
     display: none;
