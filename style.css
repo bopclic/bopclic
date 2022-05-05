@@ -244,6 +244,11 @@ header {
         grid-template-columns: 100%;
     }
 
+    .hot-apps h1 {
+        padding-top: 40px;
+    }
+
+
 }
 
 .hero {
