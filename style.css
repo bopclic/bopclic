@@ -12,6 +12,8 @@
     --tertiary-color: #00adb5;
     --background-color: #fff;
     --text-color: #000;
+    --accordion-section: #2C3440;
+    --accordion-bg: #eee;
 }
 
 .dark-theme {
@@ -20,6 +22,8 @@
     --tertiary-color: #00adb5;
     --background-color: #282828;
     --text-color: #eeee;
+    --accordion-section: #181818;
+    --accordion-bg: #282828;
 }
 
 .cookie-container {
@@ -238,8 +242,8 @@ a {
 }
 
 #accordion {
-    padding: 5% 5% 6%;
-    background-color: #2C3440;
+    padding: 5% 5%;
+    background-color: var(--accordion-section);
     /* background-color: #37414F; */
     /* background-color: #414D5E; */
 }
@@ -251,8 +255,8 @@ a {
 }
 
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: var(--accordion-bg);
+    color: var(--text-color);
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -265,12 +269,12 @@ a {
 
 .active,
 .accordion:hover {
-    background-color: #ccc;
+    background-color: var(--tertiary-color);
 }
 
 .accordion:after {
     content: '\002B';
-    color: #777;
+    color: var(--text-color);
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -282,7 +286,7 @@ a {
 
 .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: var(--accordion-bg);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
