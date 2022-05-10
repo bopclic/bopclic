@@ -514,6 +514,8 @@ footer {
     }
 
 
-
+    #accordion {
+        padding-bottom: 10%;
+    }
 
 }
