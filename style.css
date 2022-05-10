@@ -466,9 +466,7 @@ footer {
         right: 0;
     }
 
-    .hot-apps h1 {
-        padding-top: 40px;
-    }
+
 
     .hero h1 {
         font-size: 2.875rem;
@@ -484,6 +482,10 @@ footer {
 
     .hot-apps h1 {
         font-size: x-large;
+    }
+
+    #hot-apps-table {
+        text-align: left;
     }
 
     .consult {
