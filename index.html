@@ -199,14 +199,16 @@
                     <a href="" class="nav_link">Invest</a>
                 </li>
                 <li class="nav_item">
-                    <a href="#consult" class="nav_link">Consultation</a>
-                </li>
-                <li class="nav_item">
                     <a href="#rank" class="nav_link">Ranking</a>
                 </li>
                 <li class="nav_item">
                     <a href="#accordion" class="nav_link">Learn</a>
                 </li>
+                <li class="nav_item">
+                    <a href="#consult" class="nav_link">Consultation</a>
+                </li>
+
+
             </ul>
         </nav>
 
@@ -309,17 +311,18 @@
         <div class="consult-pic">
             <h1>Consult</h1>
             <img src="./img/m12.jpg" width="300px" height="250px" alt="">
-            <p>
-                <ion-icon name="send-outline"></ion-icon>
-                bopclic@icloud.com <ion-icon name="hourglass-outline"></ion-icon> 24/7 Reachout <br>
-                <ion-icon name="phone-portrait-outline"></ion-icon> +256-760-109642
-            </p>
-            <p>
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <ion-icon name="send-outline" class="contact-icon"></ion-icon> <br>
+                    bopclic@icloud.com
+                </div>
+                <div class="contact-card">
+                    <ion-icon name="phone-portrait-outline" class="contact-icon"></ion-icon> <br>
+                    +256-760-109642
+                </div>
+            </div>
 
-            </p>
-            <p>
 
-            </p>
         </div>
 
 
@@ -330,6 +333,7 @@
         <script>
             document.write(new Date().getFullYear())
         </script> <strong> <span>Bopclic</span></strong>. All Rights Reserved
+
     </footer>
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">

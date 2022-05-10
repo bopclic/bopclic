@@ -14,6 +14,7 @@
     --text-color: #000;
     --accordion-section: #2C3440;
     --accordion-bg: #eee;
+    --footer-color: #37414F;
 }
 
 .dark-theme {
@@ -24,6 +25,7 @@
     --text-color: #eeee;
     --accordion-section: #181818;
     --accordion-bg: #282828;
+    --footer-color: #181818;
 }
 
 .cookie-container {
@@ -297,7 +299,7 @@ a {
 }
 
 footer {
-    background-color: #37414F;
+    background-color: var(--footer-color);
     /* background-color: #414D5E; */
     color: var(--secondary-color);
     padding: 1% 5%;
@@ -315,12 +317,30 @@ footer {
     text-align: center;
 }
 
+.contact-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.contact-card {
+    width: 200px;
+    height: 100px;
+    padding: 5% 5%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.contact-icon {
+    font-size: x-large;
+    padding-bottom: 1%;
+}
 
 
-
-
-
-
+/* Mobile View */
 @media screen and (max-width: 768px) {
 
     body {
@@ -440,6 +460,19 @@ footer {
         margin-bottom: 6%;
 
     }
+
+    .contact-cards {
+        grid-template-columns: 100%;
+    }
+
+    .i-frame {
+        height: 100vh;
+    }
+
+    .panel {
+        text-align: left;
+    }
+
 
 
 
