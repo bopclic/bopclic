@@ -202,13 +202,12 @@ a {
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), 50% 100%, 0 calc(100% - 50px));
     /* clip-path: polygon(0 50px, 50% 0, 100% 50px, 100% 100%, 0 100%);
     margin-top: -40px; */
-    padding: 10% 5%;
+    padding: 7% 5% 12%;
 
 }
 
 .hot-apps h1 {
-    padding-bottom: 40px;
-    text-align: center;
+    padding-bottom: 3%;
     font-size: xx-large;
     color: var(--secondary-color);
 }
@@ -216,6 +215,7 @@ a {
 .hot-apps p {
     color: var(--secondary-color);
     text-align: center;
+    padding-top: 3%;
 }
 
 
@@ -337,6 +337,40 @@ footer {
 .contact-icon {
     font-size: x-large;
     padding-bottom: 1%;
+}
+
+#hot-apps-table {
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#hot-apps-table td,
+#hot-apps-table th {
+    border: 1px solid var(--secondary-color);
+    padding: 8px;
+}
+
+#hot-apps-table tr:nth-child(even) {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#hot-apps-table tr:nth-child(odd) {
+    color: var(--secondary-color);
+    background-color: var(--accordion-section);
+}
+
+/* #hot-apps-table tr:hover {
+    background-color: var(--tertiary-color);
+} */
+
+#hot-apps-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 
