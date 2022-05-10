@@ -480,6 +480,10 @@ footer {
         font-size: 1rem;
     }
 
+    .hot-apps {
+        padding-bottom: 20%;
+    }
+
     .hot-apps h1 {
         font-size: x-large;
     }
