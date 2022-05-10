@@ -89,10 +89,25 @@ $('.owl-carousel').owlCarousel({
             items: 1
         },
         600: {
-            items: 3
+            items: 2
         },
         1000: {
-            items: 4
+            items: 2
         }
     }
 })
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+}
