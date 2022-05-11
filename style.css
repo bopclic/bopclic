@@ -206,7 +206,7 @@ a {
 
 .hot-apps h1 {
     padding-bottom: 3%;
-    font-size: x-large;
+    font-size: xx-large;
     color: var(--secondary-color);
 }
 
@@ -315,6 +315,12 @@ footer {
 .consult-pic {
     padding: auto;
     text-align: center;
+}
+
+.consult-pic h1 {
+    text-align: left;
+    padding-left: 60px;
+    font-size: xx-large;
 }
 
 .contact-cards {
@@ -484,7 +490,9 @@ footer {
         padding-bottom: 20%;
     }
 
-    .hot-apps h1 {
+    .hot-apps h1,
+    .consult-pic h1,
+    #accordion h1 {
         font-size: x-large;
     }
 
@@ -499,6 +507,11 @@ footer {
         margin-top: 1%;
         margin-bottom: 6%;
 
+    }
+
+    .consult-pic h1 {
+        text-align: center;
+        padding-left: 0;
     }
 
     .contact-cards {
