@@ -193,3 +193,4 @@ anime.timeline({ loop: true })
         easing: "easeOutExpo",
         delay: 1000
     });
+
