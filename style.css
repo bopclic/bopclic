@@ -200,8 +200,6 @@ a {
     background-color: var(--primary-color);
     height: 100%;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), 50% 100%, 0 calc(100% - 50px));
-    /* clip-path: polygon(0 50px, 50% 0, 100% 50px, 100% 100%, 0 100%);
-    margin-top: -40px; */
     padding: 7% 5% 12%;
 
 }
@@ -244,8 +242,10 @@ a {
 }
 
 #accordion {
-    padding: 5% 5%;
+    padding: 10% 5%;
     background-color: var(--accordion-section);
+    clip-path: polygon(0 50px, 50% 0, 100% 50px, 100% 100%, 0 100%);
+    margin-top: -40px;
     /* background-color: #37414F; */
     /* background-color: #414D5E; */
 }
