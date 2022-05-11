@@ -24,8 +24,8 @@
 <body>
 
 
-    <div class="cookie-container">
-        <!-- cookie -->
+    <!-- <div class="cookie-container">
+
         <svg class="cookie" width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Group 1">
                 <g id="cookies-svgrepo-com 1" clip-path="url(#clip0_2_119)">
@@ -154,11 +154,7 @@
                     </g>
                 </g>
             </g>
-            <defs>
-                <!-- <clipPath id="clip0_2_119">
-                    <rect width="98" height="98" fill="white" />
-                </clipPath> -->
-            </defs>
+
         </svg>
 
         <div class="text">
@@ -169,7 +165,7 @@
 
             <button class="cookie-button">Okay, got it!</button>
         </div>
-    </div>
+    </div> -->
 
     <div class="icons">
         <a href="https://facebook.com/bopclic" target="_blank">
@@ -196,10 +192,10 @@
                     <a href="" class="nav_link">Innovation</a>
                 </li>
                 <li class="nav_item">
-                    <a href="" class="nav_link">Invest</a>
+                    <a href="#rank" class="nav_link">Ranking</a>
                 </li>
                 <li class="nav_item">
-                    <a href="#rank" class="nav_link">Ranking</a>
+                    <a href="" class="nav_link">Invest</a>
                 </li>
                 <li class="nav_item">
                     <a href="#accordion" class="nav_link">Learn</a>
@@ -218,8 +214,16 @@
 
     <section class="hero">
         <div class="hero-1">
-            <h1>Elevate your next project</h1>
-            <h3>Building efficient & innovative tech systems</h3>
+            <h1 class="ml5">
+                <span class="text-wrapper">
+                    <span class="line line1"></span>
+                    <span class="letters letters-left">Build</span>
+                    <span class="letters ampersand">your</span>
+                    <span class="letters letters-right">Dream </span>
+                    <span class="line line2"></span>
+                </span>
+            </h1>
+            <h3>Developing efficient & innovative tech systems</h3>
             <p>Web | Mobile | Blockchain</p>
             <a href="#accordion">Learn More</a>
         </div>
@@ -231,10 +235,8 @@
     </section>
 
     <section class="hot-apps" id="rank">
-        <h1>
-            <script>
-                document.write(new Date().getFullYear())
-            </script> Hot Apps(UI/UX): Uganda
+        <h1 class="ml12">
+            2022 Hot Apps(UI/UX): Uganda
         </h1>
         <table id="hot-apps-table">
             <tr>
@@ -278,11 +280,18 @@
         <p>Disclaimer: These apps are not necessarily developed by our team.</p>
     </section>
 
-    <section class="white"></section>
+    <section class="white">
+    </section>
 
     <section id="accordion">
 
-        <h1>Quick Guide</h1>
+        <h1 class="ml14">
+            <span class="text-wrapper">
+                <span class="letters">Quick Guide</span>
+                <span class="line"></span>
+            </span>
+        </h1>
+
         <button class="accordion">What do you develop?</button>
         <div class="panel">
             <p>Websites(Static), Web applications(Web 2), Mobile applications(Web 2) and Blockchain applications(Web 3).
@@ -353,7 +362,16 @@
         </div>
 
         <div class="consult-pic">
-            <h1>Consult</h1>
+
+
+            <h1 class="ml1">
+                <span class="text-wrapper">
+                    <span class="line line1"></span>
+                    <span class="letters">Consult</span>
+                    <span class="line line2"></span>
+                </span>
+            </h1>
+
             <img src="./img/m12.jpg" width="300px" height="250px" alt="">
             <div class="contact-cards">
                 <div class="contact-card">
@@ -385,6 +403,8 @@
     </button>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"
         integrity="sha512-kVlGhj2qFy+KBCFuvjBJTGUMxbdqJKs4yK2jh0e0VPhWUPiPC87bzm4THmaaIee3Oj7j6sDpTTgm2EPPiESqBg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -396,6 +416,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 
     <script src="app.js"></script>
 </body>
