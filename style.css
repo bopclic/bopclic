@@ -157,10 +157,10 @@ header {
 
 
 
-.hero h1 {
+/* .hero h1 {
     font-size: 3.1875rem;
     line-height: 62px;
-}
+} */
 
 .hero h3 {
     font-size: 1.5rem;
@@ -382,7 +382,7 @@ footer {
 .ml5 {
     position: relative;
     font-weight: 300;
-    font-size: 4.5em;
+    font-size: 3.1875rem;
     color: var(--text-color);
 }
 
@@ -414,7 +414,6 @@ footer {
     width: 1em;
     margin-right: -0.1em;
     margin-left: -0.1em;
-    padding-right: 6rem;
 }
 
 .ml5 .letters {
