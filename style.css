@@ -297,7 +297,7 @@ a {
 .white {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 1% 5% 114px;
+    padding: 1% 5% 113px;
     gap: 10px;
 }
 
