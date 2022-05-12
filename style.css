@@ -295,7 +295,64 @@ a {
 }
 
 .white {
-    height: 50vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 1% 5% 10%;
+    gap: 10px;
+}
+
+.lost-white {
+    padding: 7% 5% 1%;
+    font-weight: 500;
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+}
+
+.ml10 {
+    position: relative;
+}
+
+.ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+}
+
+.my-card {
+    background-color: var(--primary-color);
+    width: 260px;
+    height: 260px;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 5%;
+    position: relative;
+}
+
+.u-card {
+    background-color: var(--secondary-color);
+    width: 260px;
+    height: 200px;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 5%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.u-card img {
+    border-radius: 100%;
+    display: block;
+    margin: auto;
 }
 
 footer {
@@ -610,6 +667,19 @@ footer {
 
     #accordion {
         padding-bottom: 10%;
+    }
+
+    .white {
+        grid-template-columns: 100%;
+    }
+
+    .my-card {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .u-card {
+        width: 100%;
     }
 
 }
