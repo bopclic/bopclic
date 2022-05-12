@@ -297,12 +297,12 @@ a {
 .white {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 1% 5% 10%;
+    padding: 1% 5% 115px;
     gap: 10px;
 }
 
 .lost-white {
-    padding: 7% 5% 1%;
+    padding: 50px 5% 1%;
     font-weight: 500;
     font-size: 1.8em;
     letter-spacing: 0.1em;
@@ -680,6 +680,10 @@ footer {
 
     .u-card {
         width: 100%;
+    }
+
+    .lost-white {
+        font-weight: 200;
     }
 
 }
