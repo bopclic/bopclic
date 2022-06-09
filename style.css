@@ -233,6 +233,16 @@ a {
     border-radius: 4px;
 }
 
+.price-btn {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 5%;
+    border-radius: 50px;
+    margin: 10px 0;
+    text-align: center;
+
+}
+
 /* #myBtn:hover {
     background-color: #555;
 } */
@@ -301,6 +311,22 @@ a {
     gap: 10px;
 }
 
+
+
+#pricing {
+
+    padding: 5% 7% 0%;
+}
+
+.a-price {
+    padding-bottom: 20px;
+}
+
+.pricing {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
 .lost-white {
     padding: 50px 5% 1%;
     font-weight: 500;
@@ -335,6 +361,16 @@ a {
     color: var(--secondary-color);
     padding: 5%;
     position: relative;
+}
+
+.price-card {
+    background-color: var(--primary-color);
+    width: 320px;
+    height: 420px;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 7%;
+    margin-bottom: 20px;
 }
 
 .u-card {
@@ -486,6 +522,16 @@ footer {
     bottom: 0;
 }
 
+.ml2 {
+    font-weight: 200;
+    font-size: 1.8em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
 .ml14 {
     font-weight: 200;
     font-size: 1.8em;
@@ -515,6 +561,8 @@ footer {
     display: inline-block;
     line-height: 1em;
 }
+
+
 
 
 
@@ -673,8 +721,20 @@ footer {
         grid-template-columns: 100%;
     }
 
+
+
+    .pricing {
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+
     .my-card {
         width: 100%;
+    }
+
+    .price-card {
+        width: 100%;
+        height: 100%;
     }
 
     .u-card {
