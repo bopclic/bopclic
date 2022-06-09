@@ -737,6 +737,11 @@ footer {
         height: 100%;
     }
 
+    .price-card p {
+
+        text-align: left;
+    }
+
     .u-card {
         width: 100%;
     }
