@@ -613,7 +613,69 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
 
+        document.addEventListener('contextmenu', event => event.preventDefault());
+
+        document.onkeydown = function (e) {
+
+            if (event.keyCode == 123) {
+
+                return false;
+
+            }
+
+            if (e.which === 123) {
+
+                return false;
+
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+
+                return false;
+
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+
+                return false;
+
+            }
+
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+
+                return false;
+
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+
+                console.log('You cannot inspect Element');
+
+                return false;
+
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+
+                console.log('You cannot inspect Element');
+
+                return false;
+
+            }
+
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+
+                console.log('You cannot inspect Element');
+
+                return false;
+
+            }
+
+        }
+
+    </script>
 
 
     <script src="app.js"></script>
