@@ -325,6 +325,7 @@ a {
 .pricing {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    gap: 20px;
 }
 
 .lost-white {
@@ -365,8 +366,8 @@ a {
 
 .price-card {
     background-color: var(--primary-color);
-    width: 320px;
-    height: 420px;
+    width: 350px;
+    height: 430px;
     border-radius: 20px;
     color: var(--secondary-color);
     padding: 7%;
